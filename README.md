@@ -40,11 +40,8 @@ Zlecenie dał typa z Fiverr'a w Go
      <li> 9. Try some similar site Analytics graphs. </li>
      <li> 10. If possible page HTML also store somewhere so in future we can give them seo Analytics also. </li>
      <li> 11. Whatever the values you can grab grab it on each request. </li>
-     <li> 12. Save DB space maximum as possible </li>
-
-<br> 
-
+     <li> 12. Save DB space maximum as possible. </li>
      Rysunki: </h4>
-     ![Attachment_1628135753](https://user-images.githubusercontent.com/31569763/128309076-30de8f9f-b2a2-490b-9678-4b436d5a7af3.jpeg)
-     ![Attachment_1628135941](https://user-images.githubusercontent.com/31569763/128309091-9092d179-6b93-4577-857d-bd503c632e40.jpeg)
+     ![Attachment_1628135753](https://user-images.githubusercontent.com/31569763/128310298-bc4ff8fa-03cd-4ae3-8195-98c81b79671f.jpeg)
+     ![Attachment_1628135941](https://user-images.githubusercontent.com/31569763/128310313-342c64f4-ecbd-40b4-9857-49be7653a60d.jpeg)
 
