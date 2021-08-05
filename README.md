@@ -42,6 +42,7 @@ Zlecenie dał typa z Fiverr'a w Go
      <li> 11. Whatever the values you can grab grab it on each request. </li>
      <li> 12. Save DB space maximum as possible. </li>
      Rysunki: </h4>
-     ![Attachment_1628135753](https://user-images.githubusercontent.com/31569763/128310298-bc4ff8fa-03cd-4ae3-8195-98c81b79671f.jpeg)
-     ![Attachment_1628135941](https://user-images.githubusercontent.com/31569763/128310313-342c64f4-ecbd-40b4-9857-49be7653a60d.jpeg)
+     ![jeden](https://user-images.githubusercontent.com/31569763/128310697-19918558-9542-4931-9461-6d5c240b0130.jpeg)
+     ![dwa](https://user-images.githubusercontent.com/31569763/128310709-8e3fe977-5b23-4390-aa8d-5441c9765b0e.jpeg)
+
 
