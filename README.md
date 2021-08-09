@@ -45,4 +45,9 @@ Zlecenie dał typa z Fiverr'a w Go
      ![jeden](https://user-images.githubusercontent.com/31569763/128310697-19918558-9542-4931-9461-6d5c240b0130.jpeg)
      ![dwa](https://user-images.githubusercontent.com/31569763/128310709-8e3fe977-5b23-4390-aa8d-5441c9765b0e.jpeg)
 
-
+     <h2> ToDo list </h2>
+     <h4> <li> Wywalić zawartość paska bocznego </li>
+          <li> Dodać kilka skryptów ajax na: wczytywanie stron, wczytywanie ich statystyk, wczytywanie rangi </li>
+          <li> Ogarnąć responsywność </li>
+          <li> Upiększyć Service i SSL </li>
+          <li> Dodanie przycisku do dodawania stron </li>
