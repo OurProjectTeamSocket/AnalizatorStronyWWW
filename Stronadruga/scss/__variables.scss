@@ -1,0 +1,30 @@
+$red: #FA626B;
+$gray: #2C303B;
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin redbutton {
+    transition: all 0.3s 0s ease;
+
+    &:hover {
+        border: 2px solid $red;
+        color: $red;
+        cursor: pointer;
+    }
+}
+
+@mixin w100h100 {
+    height: 100%;
+    width: 100%;
+}
+

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAWA,AAAA,uBAAuB,CAAA;EACnB,MAAM,EAAE,gBAAgB;CAC3B",
+    "sources": [
+        "../pages/users.scss"
+    ],
+    "names": [],
+    "file": "users.css"
+}

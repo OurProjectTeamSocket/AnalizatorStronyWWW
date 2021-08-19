@@ -1,0 +1,16 @@
+server:
+  info:
+    starting: "👉  🚀 🚀 Server starting 🚀 🚀"
+    started: "👉  🚀 🚀 Application started on host: {{ .Host }} port {{ .Name }} 🚀 🚀"
+
+db:
+  connection:
+    error: "👉  😭 😭 Can not connect to database, sorry form problems. Please contact with administrator of this website"
+    success: "👉 database connection successful ✅ ✅ ✅"
+
+auth:
+  login:
+    bad_password: "👉 Bad password attempt %s 😡 🔴 🔴"
+    success: '👉 User %s logged in 💃 💃 💃'
+  register:
+    duplicate: '👉 Duplicate account %s 🤓 🤓'
