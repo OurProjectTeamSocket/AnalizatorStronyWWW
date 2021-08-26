@@ -75,14 +75,41 @@ func dashboard(w http.ResponseWriter, req *http.Request) {
 		}
 	}
 
-	db.Table("Syta2_websites")
+	// Wyciąganie informacji z bazy danych
 
-	s = strings.ReplaceAll(s, "0xf1", fmt.Sprintf("%v, %v, %v, %v, %v, %v, %v, ", 10,20,30,40,50,60,70))
+	var info Website
+	db.Table("Syta2_website_opt_46_software").Find(&info)
 
-	s = strings.ReplaceAll(s, "0xc1", fmt.Sprintf("%v, %v, %v, %v, %v, %v, %v, ", 10,20,30,40,50,60,70))
-
-	s = strings.ReplaceAll(s, "0xcf", fmt.Sprintf("{\n    country: \"USA\",\n    visits: %v\n  },\n  {\n    country: \"China\",\n    visits: %v\n  },\n  {\n    country: \"Japan\",\n    visits: %v\n  },\n  {\n    country: \"Germany\",\n    visits: %v\n  },\n  {\n    country: \"UK\",\n    visits: %v\n  },\n  {\n    country: \"France\",\n    visits: %v\n  },\n  {\n    country: \"India\",\n    visits: %v\n  },", 1,2,3,4,5,6,7))
-
+	s = strings.ReplaceAll(s, "0xf1", fmt.Sprintf(`<div class="day">%v</div>`, info.Up)) // info.ID, info.Service, info.Rang, info.Days, info.SSL, info.Up, info.Response, info.Down
+	s = strings.ReplaceAll(s, "0xc1", fmt.Sprintf("%v", info.Down))
+	s = strings.ReplaceAll(s, "0xcf", fmt.Sprintf("{\n    country: \"USA\",\n    visits: %v\n  }", info.Down)) /* ,
+	{
+	country: "China",
+		visits: %v*10
+	},
+	{
+	country: "Japan",
+		visits: %v
+	},
+	{
+	country: "Germany",
+		visits: %v
+	},
+	{
+	country: "UK",
+		visits: %v*10
+	},
+	{
+	country: "France",
+		visits: %v
+	},
+	{
+	country: "India",
+		visits: %v
+	}, {
+	country: "Mongolia",
+		visits: %v
+	}*/
 
 	fmt.Fprintf(w, string(s)) // wysyłanie strony
 }
