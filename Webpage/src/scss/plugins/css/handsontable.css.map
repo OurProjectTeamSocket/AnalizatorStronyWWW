@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAEA,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,iBAAiB,CAAC,SAAS,CAAA;EAC1B,MAAM,EAAE,gBAAgB;CACxB;;AAKD,AAAA,WAAW,CAAC;EACV,gBAAgB,EAAE,kBAAkB;CACrC;;AACD,AAAA,WAAW,CAAC;EACV,gBAAgB,EAAE,kBAAkB;CACrC",
-    "sources": [
-        "../tables/handsontable.scss"
-    ],
-    "names": [],
-    "file": "handsontable.css"
-}

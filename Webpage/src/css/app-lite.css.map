@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAYA,OAAO,CAAC,6BAAI;AACZ,OAAO,CAAC,iBAAI;AACZ,OAAO,CAAC,0BAAI",
-    "sources": [
-        "../scss/app-lite.scss"
-    ],
-    "names": [],
-    "file": "app-lite.css"
-}

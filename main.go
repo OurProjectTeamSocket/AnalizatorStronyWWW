@@ -2,42 +2,19 @@ package main
 
 import (
 	"fmt"
+	adds "github.com/XploraTechProducts/monitorAI/controllers"
 	"net/http"
 )
-
-// Szablon do bazy danych
-
-type User struct {
-	ID int
-	Name string
-	Email string
-	Password string
-}
-
-type Websites struct { // DB z listą stron usera
-	ID int
-	Url string
-}
-
-type Website struct { // DB z informacjami strony
-	ID int
-	Service bool
-	Rang int
-	Days int
-	SSL bool
-	Up int
-	Response float64
-	Down int
-}
 
 // Główny serwer
 
 func main() {
-	http.HandleFunc("/login", login)
-	http.HandleFunc("/register", register)
-	http.HandleFunc("/dashboard", dashboard) // dashboard-analytics.html
-	http.HandleFunc("/addwebsite", addwebsite)
-	http.Handle("/", http.FileServer(http.Dir("C:/Users/User/Desktop/monitorAI-main/")))
+	http.HandleFunc("/login", adds.Login())
+	http.HandleFunc("/register", adds.Register())
+	http.HandleFunc("/dashboard", adds.Dashboard()) // dashboard-analytics.html
+	http.HandleFunc("/addwebsite", adds.Addwebsite())
+	http.HandleFunc("/logout", adds.Logout())
+	http.Handle("/", http.FileServer(http.Dir("./Website/")))
 
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {

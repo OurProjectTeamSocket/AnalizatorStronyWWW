@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAUA,AAAA,qBAAqB,CAAA;EACjB,gBAAgB,EAAE,qDAAqD;EACvE,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;CACzB",
-    "sources": [
-        "../pages/under-maintenance.scss"
-    ],
-    "names": [],
-    "file": "under-maintenance.css"
-}
